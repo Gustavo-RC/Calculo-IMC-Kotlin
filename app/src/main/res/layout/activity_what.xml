@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".WhatActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="O que é IMC? \n \n
+        IMC é uma sigla utilizada para Índice de Massa Corporal. \n
+        O Índice de Massa Corporal é uma medida utilizada para medir a obesidade adotada pela Organização Mundial de Saúde (OMS). É o padrão internacional para avaliar o grau de obesidade. \n
+        O sobrepeso e a obesidade, indicados pelo IMC, são fatores de risco para doenças tais como a hipertensão arterial, a doença arterial coronariana e o diabetes melittus, além de outras patologias consideradas de alto risco para a Saúde Pública. \n
+        Hoje em dia, o IMC é utilizado como forma de comparar a saúde de populações, ou até mesmo definir prescrição de medicações. \n
+        Os valores de IMC são independentes de idade e sexo. Apesar disso, o IMC pode não corresponder ao mesmo grau de gordura em diferentes populações devido às diferentes proporções do corpo. \n
+        Riscos à saúde associados ao aumento do IMC devem ser constantemente observados e interpretados, já que podem ser diferentes em cada população. \n \n
+        Fonte: http://www.calculoimc.com.br"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/btnQuero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnQuero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Quero Calcular"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
